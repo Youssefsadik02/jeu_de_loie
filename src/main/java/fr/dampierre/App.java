@@ -9,6 +9,7 @@ public class App {
     Scanner clavier= new Scanner (System.in);
     Random generateur = new Random();
     System.out.println("Bienvenu dans notre jeu, Le but est de parcourir les 20 cases du jeu avec 5 lancers d'un dé. Un dé à 6 faces sera donc lancé 5 fois. On fait toujours les 5 lancers. ");
+    clavier.nextLine();
     int i;
     int rest=0;
     int increment=0;
@@ -20,6 +21,7 @@ public class App {
          clavier.nextLine();
         
         }
+    clavier.close();
     
     if (rest == 0) {
         System.out.println("Vous avez gagné!");
