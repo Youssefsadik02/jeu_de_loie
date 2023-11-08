@@ -16,8 +16,9 @@ public class App {
          int nbreAleatoire= generateur.nextInt(6) + 1;
          increment= increment+nbreAleatoire;
          rest = 20-increment;
-         System.out.print("Lancer "+i+" : vous avez fait "+ nbreAleatoire+ " . vous etes sur la case "+increment+ " (encore "+rest +" cases)");
+         System.out.print("Lancer "+i+" : vous avez fait "+ nbreAleatoire+ ". vous etes sur la case "+increment+ " (encore "+rest +" cases)");
          clavier.nextLine();
+        
         }
     
     if (rest == 0) {
